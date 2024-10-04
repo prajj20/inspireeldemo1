@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.inspireel-sec-5-main{
+    width: 100%;
+    padding: 5% 0% 5% 0%;
+}
+
+.inspireel-sec-5-main-h1{
+    font-family: "Inter", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 43.75px;
+    color: rgba(106, 61, 164, 1);
+    text-align: center;
+}
+.inspireel-sec-5-main-row{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 2%;
+}
+
+.inspireel-sec-5-main-row-card-1{
+    width: 15%;
+    background: rgba(228, 117, 54, 1);
+    /* padding-bottom: 2%; */
+    height: fit-content;
+    padding: 52px 0 44px 1px;
+    border-radius: 10px;
+
+}
+.inspireel-sec-5-main-row-card-2{
+    width: 15%;
+    background: rgba(228, 117, 54, 1);
+    border-radius: 10px;
+    height: fit-content;
+    padding: 52px 0 44px 1px;
+
+}
+.inspireel-sec-5-main-row-card-3{
+    width: 15%;
+    background: rgba(228, 117, 54, 1);
+    height: fit-content;
+    padding: 52px 0 75px 1px;
+    border-radius: 10px;
+
+}
+.inspireel-sec-5-main-row-card-4{
+    width: 15%;
+    background: rgba(228, 117, 54, 1);
+    border-radius: 10px;
+    height: fit-content;
+    padding: 52px 0 44px 1px;
+
+}
+.inspireel-sec-5-main-row-card-5{
+    width: 15%;
+    background: rgba(228, 117, 54, 1);
+    border-radius: 10px;
+    height: fit-content;
+    padding: 52px 0 48px 1px;
+
+}
+.inspireel-sec-5-main-row-card-1-image{
+    display: flex;
+    justify-content: center;
+}
+
+.inspireel-sec-5-main-row-card-2-image{
+    display: flex;
+    justify-content: center;
+}
+
+.inspireel-sec-5-main-row-card-3-image{
+    display: flex;
+    justify-content: center;
+}
+
+.inspireel-sec-5-main-row-card-4-image{
+    display: flex;
+    justify-content: center;
+}
+
+.inspireel-sec-5-main-row-card-5-image{
+    display: flex;
+    justify-content: center;
+}
+
+.inspireel-sec-5-main-row-card-1-h1{
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    /* line-height: 43.75px; */
+    color: rgba(106, 61, 164, 1);
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 5%;
+}
+    
+
+.inspireel-sec-5-main-row-card-2-h1{
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    /* line-height: 43.75px; */
+    color: rgba(106, 61, 164, 1);
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 4%;
+}
+.inspireel-sec-5-main-row-card-3-h1{
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    /* line-height: 43.75px; */
+    color: rgba(106, 61, 164, 1);
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 18%;
+}
+.inspireel-sec-5-main-row-card-4-h1{
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    /* line-height: 43.75px; */
+    color: rgba(106, 61, 164, 1);
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 16%;
+}
+
+.inspireel-sec-5-main-row-card-5-h1{
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    /* line-height: 43.75px; */
+    color: rgba(106, 61, 164, 1);
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    /* margin-top: 16%; */
+}
+
+
+/* ------------------MEDIA QUERY----------------------------- */
+@media (min-width:325) and (max-width:1000){
+    .inspireel-sec-5-main-row{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+

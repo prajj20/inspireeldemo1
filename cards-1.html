@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icon Cards Layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <style>
+        /* body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        } */
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            column-gap: 30px;
+        }
+
+        .card {
+            width: 150px;
+            height: 200px;
+            background-color: #FF6D34; /* Default orange color */
+            border-radius: 10px;
+            text-align: center;
+            padding: 20px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card:nth-child(2), .card:nth-child(4) {
+            background-color: #7A3DF5; /* Purple background for 2nd and 4th card */
+        }
+
+        .card img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 20px;
+        }
+
+        .card h3 {
+            font-size: 16px;
+            margin: 0;
+            font-family: "Inter", sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Card 1: Experiential Learning -->
+        <div class="card">
+            <img src="/school-website/gallery/insipreel-hm-sec-5-main-row-card-1-img.png" alt="Experiential Learning Icon">
+            <h3>Experiential Learning</h3>
+        </div>
+
+        <!-- Card 2: Empowerment of Students -->
+        <div class="card">
+            <img src="/school-website/gallery/insipreel-hm-sec-5-main-row-card-2-img.png" alt="Empowerment Icon">
+            <h3>Empowerment of Students</h3>
+        </div>
+
+        <!-- Card 3: Multilingualism -->
+        <div class="card">
+            <img src="/school-website/gallery/insipreel-hm-sec-5-main-row-card-3-img.png" alt="Multilingualism Icon">
+            <h3>Multilingualism</h3>
+        </div>
+
+        <!-- Card 4: Curricular Integration -->
+        <div class="card">
+            <img src="/school-website/gallery/insipreel-hm-sec-5-main-row-card-4-img.png" alt="Curricular Integration Icon">
+            <h3>Curricular Integration</h3>
+        </div>
+
+        <!-- Card 5: Critical Thinking -->
+        <div class="card">
+            <img src="/school-website/gallery/insipreel-hm-sec-5-main-row-card-5-img.png" alt="Critical Thinking Icon">
+            <h3>Critical Thinking</h3>
+        </div>
+    </div>
+
+</body>
+</html>
